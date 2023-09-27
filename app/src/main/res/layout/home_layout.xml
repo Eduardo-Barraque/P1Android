@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/noticia1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:text="@string/Noticia1"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/corpo1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="2dp"
+        android:text="@string/resumo1"
+        android:textAlignment="gravity"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/botao1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Saiba Mais" />
+
+    <TextView
+        android:id="@+id/noticia2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/Noticia2"
+        android:textAlignment="gravity"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/corpo2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/resumo2"
+        android:textAlignment="gravity"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/botao2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Saiba Mais" />
+
+    <TextView
+        android:id="@+id/noticia3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/Noticia3"
+        android:textAlignment="gravity"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/corpo3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/resumo3"
+        android:textAlignment="gravity"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/botao3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Saiba Mais" />
+
+</LinearLayout>

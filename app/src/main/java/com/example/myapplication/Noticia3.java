@@ -8,6 +8,8 @@ import android.widget.Button;
 
 import androidx.annotation.Nullable;
 
+import com.example.myapplication.controller.HomeActivity;
+
 public class Noticia3 extends Activity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
